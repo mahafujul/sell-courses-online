@@ -8,6 +8,7 @@ Rather than storing data in files, we will try to store them in MongoDB.
 
 ## Routes
 ### Admin Routes:
+```JavaScript
  - POST /admin/signup
    Description: Creates a new admin account.
    Input: { username: 'admin', password: 'pass' }
@@ -29,8 +30,9 @@ Rather than storing data in files, we will try to store them in MongoDB.
    Input: Headers: { 'Authorization': 'Bearer jwt_token_here' }
    Output: { courses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
    User Routes:
-
+```
 ### User routes
+```JavaScript
  - POST /users/signup
    Description: Creates a new user account.
    Input: { username: 'user', password: 'pass' }
@@ -51,3 +53,4 @@ Rather than storing data in files, we will try to store them in MongoDB.
    Description: Lists all the courses purchased by the user.
    Input: Headers: { 'Authorization': 'Bearer jwt_token_here' }
    Output: { purchasedCourses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
+```
