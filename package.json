@@ -1,0 +1,18 @@
+{
+  "name": "sell-courses-online",
+  "version": "1.0.0",
+  "description": "### Description Below are the basic functionalities that a course-selling web application should have.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3"
+  }
+}
